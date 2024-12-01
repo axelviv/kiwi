@@ -2,31 +2,89 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
+
+.logo {
+  width: 100%;
+  height: 6rem; 
+  object-fit: cover; 
+}
+
+.App-unirse {
+  padding-top: 4rem;
+  height: 100vh;
+  background: linear-gradient(to bottom, #9abddb, #ccf3f8);
+  position: relative;
+
+}
+
+.App-opciones {
+  padding-top: 0.5rem;
+  height: 90vh;
+  background: linear-gradient(to bottom, #76c8ed, #67bbea);
+  position: relative;
+
+}
+
+.App-comentarios {
+  padding-top: 2rem;
+  height: 90vh;
+  background: linear-gradient(to bottom, #2f3a72, #17144b);
+  position: relative;
+}
+
+.custom-img {
+  width: 100%;
+  height: 12rem; 
+  object-fit: contain; 
+}
+
+.App-empresas {
+  padding-top: 2rem;
+  height: 50vh;
+  background: linear-gradient(to bottom, #9ceaf6, #64d1e5);
+  position: relative;
+}
+
+.custom-img2 {
+  width: 100%;
+  height: 150px; 
+  object-fit:scale-down;
+}
+
+.App-planes {
+  padding-top: 5rem;
+  height: 80vh;
+  background: linear-gradient(to bottom, #cdf1fd, #b6e4fb);
+  position: relative;
+}
+
+.card-custom {
+  min-height: 20rem;
+}
+
+.App-contacto {
+  padding-top: 5rem;
+  height: 70vh;
+  background: linear-gradient(to bottom, #e1f3fd, #d6eefa);
+  position: relative;
+}
+
+.App-correo {
+  padding-top: 5rem;
+  height: 50vh;
+  background: linear-gradient(to bottom, #1d336c, #1a1b53);
+  position: relative;
+}
+
 
 @keyframes App-logo-spin {
   from {
