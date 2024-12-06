@@ -2,36 +2,165 @@
   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.logo {
+  width: 100%;
+  height: 3rem; 
+  object-fit: cover; 
+}
+
+.navbar {
+  font-family: 'Roboto', sans-serif;
+  height: 4rem;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-registrarse {
+  background-color: #3BAAEA;
+  color: white;
+  border: none;
+}
+
+.btn-iniciar-sesion {
+  background-color: #191551;
+  color: white;
+  border: none;
+}
+
+.btn-unirse { 
+  background-color: #191551;
+  color: white;
+  border: none;
+}
+
+.btn-registrarse:hover {
+  background-color: #3BAAEA;
+}
+
+.btn-iniciar-sesion:hover {
+  background-color: #191551;
+}
+
+.navbar-toggler {
+  align-self: center;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+  padding: 0.5rem 1rem;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.btn {
+  font-weight: 700;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+.logo-text {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
 
-.App-link {
-  color: #61dafb;
+.App-opciones {
+  background-image: url("C:/Users/Agostina/kiwi/public/Background_funciones.svg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  position: relative;
 }
 
-.logo {
+.bloques-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
-  height: 6rem; 
-  object-fit: cover; 
+  max-width: 1300px;
+  gap: 0.5rem;
+}
+
+.bloque-grande {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  height: 600px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.bloques-pequenos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 30%;
+}
+
+.bloque-pequeno {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
 }
 
 .App-unirse {
   padding-top: 4rem;
   height: 100vh;
-  background: linear-gradient(to bottom, #9abddb, #ccf3f8);
+  background-image: url("C:/Users/Agostina/kiwi/public/Background_header.svg");
+  background-size: cover;
+  background-position: center;
   position: relative;
-
-}
-
-.App-opciones {
-  padding-top: 0.5rem;
-  height: 90vh;
-  background: linear-gradient(to bottom, #76c8ed, #67bbea);
-  position: relative;
-
+  z-index: 1;
 }
 
 .App-comentarios {
@@ -43,8 +172,8 @@
 
 .custom-img {
   width: 100%;
-  height: 12rem; 
-  object-fit: contain; 
+  height: 12rem;
+  object-fit: contain;
 }
 
 .App-empresas {
@@ -56,8 +185,8 @@
 
 .custom-img2 {
   width: 100%;
-  height: 150px; 
-  object-fit:scale-down;
+  height: 150px;
+  object-fit: scale-down;
 }
 
 .App-planes {
@@ -83,14 +212,4 @@
   height: 50vh;
   background: linear-gradient(to bottom, #1d336c, #1a1b53);
   position: relative;
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

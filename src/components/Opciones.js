@@ -3,38 +3,25 @@ import React from 'react';
 function Opciones() {
     return (
         <div className="container mt-5">
-            <div className="row">
-                
-                <div className="col-md-6">
-                    <img 
-                        src="/tableros.jpg" 
-                        alt="Imagen grande" 
-                        className="img-fluid" 
-                    />
+            <div className="bloques-container">
+                {/* Bloque grande */}
+                <div className="bloque-grande">
+                    <p>Bloque Grande</p>
                 </div>
 
-                {/* Columna para las imágenes pequeñas */}
-                <div className="col-md-6 d-flex flex-column">
-                    <div className="d-flex flex-column justify-content-between" style={{height: '100%'}}>
-                        <div className="mb-3">
-                            <img 
-                                src="conectividad.jpg" 
-                                alt="Imagen pequeña 1" 
-                                className="img-fluid h-100" 
-                            />
-                        </div>
-                        <div>
-                            <img 
-                                src="calendario.jpg" 
-                                alt="Imagen pequeña 2" 
-                                className="img-fluid h-100" 
-                            />
-                        </div>
+                {/* Contenedor para los bloques pequeños apilados */}
+                <div className="bloques-pequenos">
+                    {/* Bloques pequeños */}
+                    <div className="bloque-pequeno">
+                        <p>Bloque Pequeño 1</p>
+                    </div>
+                    <div className="bloque-pequeno">
+                        <p>Bloque Pequeño 2</p>
                     </div>
                 </div>
             </div>
         </div>
     );
-  }
+}
 
-  export default Opciones;
+export default Opciones;
