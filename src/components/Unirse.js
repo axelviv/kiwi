@@ -8,7 +8,7 @@ function Unirse() {
           <div className="col-md-6 text-start">
             <h1 className="display-4 fw-bold">Kiwi, una nueva forma de organizar y enfrentar el caos</h1>
             <h2 className="lead fs-3">Todo tu equipo unido, colaborando en un mismo lugar</h2>
-            <a href='#' className="btn text-white btn-dark mt-4 rounded btn-lg">Unirse</a>
+            <a href='/link' className="btn text-white btn-dark mt-4 rounded btn-lg">Unirse</a>
             
           </div>
   

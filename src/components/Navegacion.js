@@ -6,7 +6,7 @@ function Navegacion() {
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="/link">
           <img src="/kiwi.jpg" alt="Logo" width="100" className="logo" />
         </a>
         
@@ -19,20 +19,20 @@ function Navegacion() {
           
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0 fs-4">
             <li className="nav-item me-5">
-              <a className="nav-link" href="#">Funciones</a>
+              <a className="nav-link" href="/link">Funciones</a>
             </li>
             <li className="nav-item me-5">
-              <a className="nav-link" href="#">Planes</a>
+              <a className="nav-link" href="/link">Planes</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Nosotros</a>
+              <a className="nav-link" href="/link">Nosotros</a>
             </li>
           </ul>
 
           {/* Botones a la derecha */}
           <div className="d-flex">
-            <a href="#" className="btn text-white btn-dark mt-4 rounded me-4 btn-lg">Registrarse</a>
-            <a href="#" className="btn bg-info text-white mt-4 rounded btn-lg">Iniciar Sesión</a>
+            <a href="/link" className="btn text-white btn-dark mt-4 rounded me-4 btn-lg">Registrarse</a>
+            <a href="/link" className="btn bg-info text-white mt-4 rounded btn-lg">Iniciar Sesión</a>
           </div>
         </div>
       </div>
