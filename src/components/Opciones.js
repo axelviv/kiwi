@@ -18,14 +18,14 @@ function Opciones() {
                     <div className="d-flex flex-column justify-content-between" style={{height: '100%'}}>
                         <div className="mb-3">
                             <img 
-                                src="conectividad.jpg" 
+                                src="/conectividad.jpg" 
                                 alt="Imagen pequeña 1" 
                                 className="img-fluid h-100" 
                             />
                         </div>
                         <div>
                             <img 
-                                src="calendario.jpg" 
+                                src="/calendario.jpg" 
                                 alt="Imagen pequeña 2" 
                                 className="img-fluid h-100" 
                             />

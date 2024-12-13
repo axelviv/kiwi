@@ -11,7 +11,7 @@ function Comentarios() {
 
                 <div className="col-6 mb-5">                 
                     <img 
-                        src="/comentario1.jpg" 
+                        src="/comentario1.png" 
                         alt="Imagen 1" 
                         className="img-fluid custom-img" 
                     />                    
@@ -21,7 +21,7 @@ function Comentarios() {
             <div className="row">
                 <div className="col-6 mb-5">
                     <img 
-                        src="/comentario2.jpg" 
+                        src="/comentario2.png" 
                         alt="Imagen 2" 
                         className="img-fluid custom-img" 
                     />
@@ -31,7 +31,7 @@ function Comentarios() {
             <div className="row">
                 <div className="col-6 ms-auto">
                     <img 
-                        src="/comentario3.jpg" 
+                        src="/comentario3.png" 
                         alt="Imagen 3" 
                         className="img-fluid custom-img" 
                     />

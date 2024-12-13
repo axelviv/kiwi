@@ -14,7 +14,7 @@ function Correo() {
             aria-label="Correo electrónico"
           />
           {/* Botón */}
-          <button className="btn bg-info text-dark ms-3 rounded">Unirse</button>
+          <a href='#' className="btn bg-info text-dark ms-3 rounded">Unirse</a>
         </div>
       </div>
     </div>

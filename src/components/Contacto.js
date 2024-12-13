@@ -8,46 +8,58 @@ function Contacto() {
       {/* Fila de imágenes */}
       <div className="row justify-content-center">
         <div className="col-2 mb-3">
-          <img 
-            src="/c1.jpg" 
-            alt="Instagram" 
-            className="img-fluid custom-img2" 
-          />
+          <a href='https://www.instagram.com'>
+            <img 
+              src="/svgs/Instagram logo.svg" 
+              alt="Instagram" 
+              className="img-fluid custom-img2" 
+            />
+          </a>
         </div>
         <div className="col-2 mb-3">
+        <a href='https://www.whatsapp.com'>
           <img 
-            src="/c2.jpg" 
+            src="/svgs/Whatsapp logo.svg" 
             alt="whatsapp" 
             className="img-fluid custom-img2" 
           />
+        </a>
         </div>
         <div className="col-2 mb-3">
+        <a href='https://www.facebook.com'>
           <img 
-            src="/c3.jpg" 
+            src="/svgs/Facebook logo.svg" 
             alt="Facebook" 
             className="img-fluid custom-img2" 
           />
+        </a>
         </div>
         <div className="col-2 mb-3">
+        <a href='https://www.x.com'>
           <img 
-            src="/c4.jpg" 
+            src="/svgs/Twitter logo.svg" 
             alt="Twitter" 
             className="img-fluid custom-img2" 
           />
+        </a>
         </div>
         <div className="col-2 mb-3">
+        <a href='https://www.gmail.com'>
           <img 
-            src="/c5.jpg" 
+            src="/svgs/Email logo.svg" 
             alt="Email" 
             className="img-fluid custom-img2" 
           />
+        </a>
         </div>
         <div className="col-2 mb-3">
+        <a href='https://www.whatsapp.com'>
           <img 
-            src="/c6.jpg" 
+            src="/svgs/Tel logo.svg" 
             alt="Teléfono" 
             className="img-fluid custom-img2" 
           />
+        </a>
         </div>
       </div>
     </div>
