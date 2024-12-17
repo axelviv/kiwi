@@ -31,8 +31,8 @@ function Navegacion() {
 
           {/* Botones a la derecha */}
           <div className="d-flex">
-            <a href="/link" className="btn text-white btn-dark mt-4 rounded me-4 btn-lg">Registrarse</a>
-            <a href="/link" className="btn bg-info text-white mt-4 rounded btn-lg">Iniciar Sesión</a>
+            <a href="https://kiwi-6p0a.onrender.com/auth/register" className="btn text-white btn-dark mt-4 rounded me-4 btn-lg" target='_blank'>Registrarse</a>
+            <a href="https://kiwi-6p0a.onrender.com/auth/login" className="btn bg-info text-white mt-4 rounded btn-lg" target='_blank'>Iniciar Sesión</a>
           </div>
         </div>
       </div>
